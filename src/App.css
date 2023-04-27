@@ -1,0 +1,55 @@
+body {
+    height: 100%vh;
+    background: rgba(34, 192, 195, 0.822);
+   
+}
+.loginpage {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 100px;
+}
+
+form input{
+    margin: 5px;
+    font-weight: bold;
+}
+
+form button {
+    color: aliceblue;
+    margin: 10px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(70,74,252);
+    background: linear-gradient(158deg, rgba(70,74,252,1) 0%, rgba(17,94,99,1) 12%, rgba(75,99,170,1) 86%, rgba(240,240,240,1) 100%);
+}
+
+.home-page button {
+    color: aliceblue;
+    background: rgb(70,74,252);
+    background: linear-gradient(158deg, rgba(70,74,252,1) 0%, rgba(17,94,99,1) 12%, rgba(75,99,170,1) 86%, rgba(240,240,240,1) 100%);
+}
+
+.contact-list li {
+    color:aliceblue;
+    border-radius: 10px;
+    margin: 2px;
+    padding-left: 40px;
+    background: rgb(70,74,252);
+    background: linear-gradient(158deg, rgba(70,74,252,1) 0%, rgba(17,94,99,1) 12%, rgba(75,99,170,1) 86%, rgba(240,240,240,1) 100%);
+}
+.contact-list ul {
+    width: 400px;
+}
+
+.chat-composer {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
